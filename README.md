@@ -1,19 +1,24 @@
-<<<<<<< HEAD
-# react-hook-form
-=======
-<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
+# Validação de Formulários com React Hook Form e TypeScript
 
-# Formulários com React Hook Forms e Material-UI
+Este projeto demonstra como criar e validar formulários utilizando **React Hook Form** com **Yup** para validação de esquemas, além de integração com **Material-UI** e **TypeScript**. É uma solução moderna, performática e escalável para lidar com formulários em aplicações React.
 
-Fala dev! nesta aula vamos aprender a trabalhar com uma das bibliotecas mais utilizadas no mercado para a implementação de formulários tanto em ReactJs quanto em React Native.
+## 💡 Objetivo
 
-A sua documentação é excelente além de possuir uma comunidade bem ativa que já testou a biblioteca em diversos cenários.
+Criar uma experiência de formulário eficiente e amigável com validação de dados robusta, abordando:
+- Integração do React Hook Form com Material-UI.
+- Uso do Yup para validação de esquemas.
+- Reutilização de componentes com tipagem em TypeScript.
 
-Para quem se preocupa com a performance da aplicação e developer experience, essa é uma biblioteca que eu recomendo.
+## 🚀 Tecnologias Utilizadas
 
-## Expert
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Hook Form**: Biblioteca para lidar com formulários de maneira performática.
+- **Yup**: Validador de esquemas para JavaScript.
+- **TypeScript**: Linguagem de tipagem estática que melhora a experiência de desenvolvimento.
+- **Material-UI**: Biblioteca de componentes de interface do usuário.
 
-| [<img src="https://avatars.githubusercontent.com/u/12432044?v=4" width="75px;"/>](https://github.com/mrfrigerio) |
-| :--------------------------------------------------------------------------------------------------------------: |
-|                                [Marcelo Ragnelli](https://github.com/mrfrigerio)                                 |
->>>>>>> 0685735 (:sparkles: finish project)
+## 📑 Estrutura do Código
+
+### Componente `RHFTextInput`
+
+Um componente reutilizável para encapsular campos de entrada do Material-UI com validação integrada.
